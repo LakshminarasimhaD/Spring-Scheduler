@@ -3,6 +3,7 @@ Project Description
 This is a Spring Boot application that demonstrates the implementation of a scheduled task runner for a user management system. The application's core functionality is to periodically send automated emails to registered users using a background scheduler. It showcases how to use Spring's powerful scheduling features for time-based, automated tasks.
 
 Key Features:
+
 User Registration: An API endpoint to register new users, storing their details in a MySQL database. It prevents duplicate user registrations by checking for an existing email.
 
 Spring Scheduler: The application uses the @Scheduled annotation to run two separate tasks at fixed intervals:
@@ -18,6 +19,7 @@ Email Service: An email service is implemented to handle the sending of emails u
 Data Persistence: Spring Data JPA is used for database interaction, with Hibernate as the ORM to manage user data in a MySQL database.
 
 Technologies Used:
+
 Java 17
 
 Spring Boot 3.x
@@ -32,9 +34,3 @@ Lombok
 
 Spring Mail
 
-Setup Instructions:
-Database Configuration: Update the application.properties file with your MySQL database credentials.
-
-Email Configuration: Configure the Spring Mail properties in application.properties with your SMTP server details, username, and a generated app password.
-
-Run Application: Use your IDE or the command line to run the SpringSchedulerApplication.java file. The scheduled tasks will begin running automatically.
