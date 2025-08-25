@@ -1,4 +1,5 @@
 Project Description
+
 This is a Spring Boot application that demonstrates the implementation of a scheduled task runner for a user management system. The application's core functionality is to periodically send automated emails to registered users using a background scheduler. It showcases how to use Spring's powerful scheduling features for time-based, automated tasks.
 
 Key Features:
